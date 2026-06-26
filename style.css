@@ -217,6 +217,10 @@ h2{font-size:clamp(30px,4.5vw,48px);font-weight:800;color:var(--navy);line-heigh
   background:linear-gradient(160deg,#0e2447,#071a36);display:flex;align-items:center;justify-content:center;
   text-align:center;padding:48px;border-left:1px solid rgba(255,255,255,0.12);
 }
+.hotel-visual.has-photo{
+  background-image:linear-gradient(180deg,rgba(7,26,54,0.05),rgba(7,26,54,0.55)),url('ritz-carlton-room.jpg');
+  background-size:cover;background-position:center;padding:48px;
+}
 @media (max-width:860px){.hotel-visual{border-left:none;border-top:1px solid rgba(255,255,255,0.12);min-height:260px;}}
 .hotel-badge{font-size:13px;color:#cfe0f5;letter-spacing:1px;line-height:1.8;}
 .hotel-badge .ring{
