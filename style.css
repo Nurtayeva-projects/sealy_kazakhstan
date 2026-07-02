@@ -107,7 +107,16 @@ header.solid .menu-toggle, body.no-hero .menu-toggle{color:var(--navy);}
 .hero-text-block{
   background:var(--navy-dark);color:#fff;
   padding:80px 0 72px;
+  position:relative;overflow:hidden;
 }
+.hero-text-block::before{
+  content:'';position:absolute;inset:0;
+  background-image:url('ritz-carlton-room.jpg');
+  background-size:cover;background-position:center 30%;
+  opacity:0.18;
+  z-index:0;
+}
+.hero-text-block .wrap{position:relative;z-index:1;}
 .hero-text-block .hero-eyebrow{
   display:flex;align-items:center;gap:14px;font-size:11.5px;font-weight:700;
   letter-spacing:2px;text-transform:uppercase;color:#ffb8c6;margin-bottom:20px;
