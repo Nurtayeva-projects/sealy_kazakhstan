@@ -191,6 +191,8 @@ header.solid .menu-toggle, body.no-hero .menu-toggle{color:var(--navy);}
   padding:40px 28px;text-align:center;border-right:1px solid var(--gray-line);border-bottom:1px solid var(--gray-line);
 }
 .trust-grid .trust-item:last-child{border-right:none;}
+.trust-grid-6 .trust-item:last-child{border-right:none;}
+.trust-grid-6 .trust-item{border-bottom:none;}
 @media (max-width:760px){.trust-item:nth-child(2n){border-right:none;}}
 .trust-num{font-size:30px;font-weight:800;color:var(--navy);letter-spacing:-1px;}
 .trust-title{font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--text);margin-top:8px;}
